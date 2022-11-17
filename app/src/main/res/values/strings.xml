@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">FMK</string>
+    <string name="costumer">Müşteri</string>
+    <string name="messenger">Kurye</string>
+    <string name="select">Seçiniz</string>
+    <string name="welcome">Hoşgeldiniz</string>
+    <string name="email">E-Mail</string>
+    <string name="enter_email">E-Mail adresinizi giriniz</string>
+    <string name="password">Şifre</string>
+    <string name="enter_password">Şifrenizi giriniz</string>
+    <string name="sign_in">Giriş Yap</string>
+    <string name="forgot_password">Şifremi Unuttum</string>
+    <string name="sign_up">Kayıt ol</string>
+    <string name="username">Kullanıcı adı</string>
+    <string name="phone">Telefon</string>
+    <string name="usertype">Kullanıcı Tipi</string>
+    <string name="password_change">Şifreni Yenile</string>
+    <string name="change">Değiştir</string>
+    <string name="new_password">Yeni Parola</string>
+    <string name="new_password_again">Yeni Parola (Tekrar)</string>
+    <string name="user_information">Bilgilerim</string>
+    <string name="new_order">Yeni Sipariş</string>
+    <string name="my_order">Siparişlerim</string>
+    <string name="sign_out">Çıkış Yap</string>
+    <string name="sign_up_text">Üye değilmisiniz hemen üye olun</string>
+    <string name="driving_license_type">Ehliyet Tipi</string>
+    <string name="driving_license_information">Ehliyet Süresi</string>
+    <string name="messenger_information">Kurye Bilgileri</string>
+    <string name="welcome_2">Hoşgeldin</string>
+    <string name="recipient_name">Alıcı ismi</string>
+    <string name="recipient_address">Alıcı adresi</string>
+    <string name="package_type">Paket tipi</string>
+    <string name="price">Tutar</string>
+    <string name="order">Sipariş ver</string>
+    <string name="myorders">Siparişlerim</string>
+    <string name="accept_order">Siparişi onayla</string>
+    <string name="sign_in_success">Giriş işlemi başarılı yönlendiriliyorsunuz…</string>
+    <string name="sign_in_failed">Giriş işlemi başarısız!</string>
+    <string name="empty_field">Lütfen bütün gerekli alanları doğru şekilde doldurunuz!</string>
+    <string name="password_reset_send_email">Şifre sıfırlama isteği e-mail adresinize gönderildi!</string>
+    <string name="drawer_open">Açıldı</string>
+    <string name="drawer_close">Kapandı</string>
+    <string name="required_permissions">Devam etmek için izin vermelisiniz</string>
+    <string name="no_permissions">İzin alınamadı</string>
+    <string name="order_created">Siparişiniz alındı</string>
+    <string name="there_is_a_problem">Bir hata oluştu</string>
+    <string name="no_location">Telefon konumu bulunamadı</string>
+    <string name="document">Evrak</string>
+    <string name="box">Koli</string>
+    <string name="success_sign_up">Kayıt işlemi başarılı…</string>
+    <string name="password_change_success">Şifreniz değiştirildi.</string>
+    <string name="take_order">Sipariş alındı.</string>
+    <string name="no_order">Herhangi bir sipariş seçmediniz.</string>
+    <string name="total_earn">Toplam Kazanç</string>
+    <string name="confirm_license">Ehliyeti Onayla</string>
+    <string name="no_access">Erişilemiyor</string>
+    <string name="complete_order">Tamamla</string>
+    <string name="cancel_order">Siparişi iptal et</string>
+
+
+
+</resources>

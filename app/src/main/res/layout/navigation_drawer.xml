@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/firstColor"
+    android:orientation="vertical"
+    tools:context=".view.fragment.NavigationDrawerFragment">
+
+    <ImageView
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="75dp"
+        android:src="@drawable/logo"/>
+
+    <TextView
+        android:id="@+id/navigation_drawer_user_information"
+        android:layout_marginTop="75dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/user_information"
+        android:textColor="@color/white"
+        android:textSize="19sp"
+        android:drawableStart="@drawable/ic_user_information"
+        android:drawablePadding="10dp"
+        android:layout_marginStart="10dp"/>
+
+    <TextView
+        android:id="@+id/navigation_drawer_new_order"
+        android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/new_order"
+        android:textColor="@color/white"
+        android:textSize="19sp"
+        android:drawableStart="@drawable/ic_new_order"
+        android:drawablePadding="10dp"
+        android:layout_marginStart="10dp"/>
+
+    <TextView
+        android:id="@+id/navigation_drawer_my_order"
+        android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/my_order"
+        android:textColor="@color/white"
+        android:textSize="19sp"
+        android:drawableStart="@drawable/ic_my_order"
+        android:drawablePadding="10dp"
+        android:layout_marginStart="10dp"/>
+
+    <TextView
+        android:id="@+id/navigation_drawer_sign_out"
+        android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_out"
+        android:textColor="@color/white"
+        android:textSize="19sp"
+        android:drawableStart="@drawable/ic_sign_out"
+        android:drawablePadding="10dp"
+        android:layout_marginStart="10dp"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/firstColor"
+    android:orientation="vertical"
+    tools:context=".view.fragment.MessengerMainFragment">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_2"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp" />
+
+    <fragment
+
+        android:layout_marginTop="20dp"
+        android:id="@+id/messenger_main_fragment_map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_height="250dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="@string/recipient_name"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/messenger_main_fragment_name"
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="@string/recipient_address"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/messenger_main_fragment_address"
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="@string/package_type"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/messenger_main_fragment_packettype"
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="@string/price"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/messenger_main_fragment_price"
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/messenger_main_fragment_accept"
+            android:layout_marginTop="5dp"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:text="@string/accept_order"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:background="@drawable/button_orange"/>
+    </LinearLayout>
+</LinearLayout>
+

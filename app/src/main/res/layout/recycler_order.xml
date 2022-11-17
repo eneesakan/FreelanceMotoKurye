@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/edit_text"
+    android:layout_margin="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="@string/recipient_name"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/order_recycler_name"
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="@string/recipient_address"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/order_recycler_address"
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="@string/package_type"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/order_recycler_packettype"
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="@string/price"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:id="@+id/order_recycler_price"
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/order_recycler_complete_order"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_gravity="end"
+            android:text="@string/complete_order"
+            android:background="@drawable/button_white"
+            android:textSize="17sp"
+            android:visibility="gone" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/order_recycler_cancel_order"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_gravity="end"
+            android:text="@string/cancel_order"
+            android:background="@drawable/button_white"
+            android:textSize="17sp"
+            android:visibility="gone" />
+        <TextView
+            android:id="@+id/order_recycler_status_text"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+
+</LinearLayout>
