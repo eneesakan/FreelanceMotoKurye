@@ -43,10 +43,11 @@ The purpose of this application is to determine the necessary conditions for Mot
 
 ### Used Screens
 <p float="center">
-  <img src="https://user-images.githubusercontent.com/84860191/226195145-62103b49-ab14-475d-9cd6-79ebbce9d544.png" width="205" />
-  <img src="https://user-images.githubusercontent.com/84860191/226195157-41abb95d-d4b9-47ed-905d-4debff759293.png" width="205" />
-  <img src="https://user-images.githubusercontent.com/84860191/226195169-370669b6-5f25-44e5-90da-f6d857b5dcdf.png" width="205" />
-  <img src="https://user-images.githubusercontent.com/84860191/226195178-60b1566b-3dd8-4775-87b1-1aa4a8d85c9d.png" width="205" />
+  <img src="https://user-images.githubusercontent.com/84860191/226195145-62103b49-ab14-475d-9cd6-79ebbce9d544.png" width="162" />
+  <img src="https://user-images.githubusercontent.com/84860191/226195157-41abb95d-d4b9-47ed-905d-4debff759293.png" width="162" />
+  <img src="https://user-images.githubusercontent.com/84860191/226195169-370669b6-5f25-44e5-90da-f6d857b5dcdf.png" width="162" />
+  <img src="https://user-images.githubusercontent.com/84860191/226195178-60b1566b-3dd8-4775-87b1-1aa4a8d85c9d.png" width="162" />
+  <img src="https://user-images.githubusercontent.com/84860191/226195189-239d5c90-c64a-4dde-9bb5-78f92d5b2f38.png" width="162" />
 </p>
 ![Resim1](https://user-images.githubusercontent.com/84860191/226195145-62103b49-ab14-475d-9cd6-79ebbce9d544.png)
 ![Resim2](https://user-images.githubusercontent.com/84860191/226195157-41abb95d-d4b9-47ed-905d-4debff759293.png)
