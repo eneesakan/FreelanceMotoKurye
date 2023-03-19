@@ -49,7 +49,7 @@ The purpose of this application is to determine the necessary conditions for Mot
 
 ------------
 ### Functional Requirements
-| Use Case  | No  |
+| Use Cases  | No  |
 | :------------: | :------------: |
 | Login to the system | 1 |
 | New Member Registration | 2 |
@@ -62,15 +62,14 @@ The purpose of this application is to determine the necessary conditions for Mot
 | Password Update | 9 |
 
 ### Logical View
-
+![Resim12](https://user-images.githubusercontent.com/84860191/226195986-73e4f033-2477-467c-a189-1bd8f2accf9d.jpg)
 
 ------------
 
 
 ### Class Diagrams
 
-
-
+![Resim13](https://user-images.githubusercontent.com/84860191/226195992-90cd0d17-ca3d-4c72-aae5-6f416f294717.png)
 
 ------------
 
